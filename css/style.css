@@ -1,0 +1,128 @@
+html, body{
+  margin: 2%;
+  padding: 0%;
+}
+header{
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  align-items: stretch;
+  }
+main{
+  margin: 4%;
+  padding: 0%;
+  display: inline; 
+}
+#luxe{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 50%;
+  
+  margin: 10%;
+  padding: 0%;
+}
+
+#nav{
+
+ 
+  display: flex;
+  position: relative;
+justify-content: space-between;
+
+list-style: none;
+
+
+}
+
+#menu{
+list-style: none;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  padding: 3%;
+}
+#bouton{
+list-style: none;
+display: flex;
+position: relative;
+justify-content: space-between;
+flex-wrap: wrap;
+width: auto;
+height: auto;
+padding: 3%;
+
+}
+
+    
+button {
+    padding      : 5px;
+    border       : 2px solid rgb(146, 111, 241);
+    background   : none;
+    cursor       : pointer;
+background-color: rgb(255, 255, 255);}
+
+
+
+
+.piscine{
+  float: left;
+  margin: auto;
+  width: 25%;
+}
+.paragraph-right{
+
+    padding: 10px;
+  margin-top : 3px;
+  justify-content: space-between
+}
+.bassin{
+  padding: 10px;
+}
+
+
+
+
+.restau{
+  padding: 0%;
+  float: right;
+  margin: auto;
+  width: 25%;
+  
+}
+.paragraph-left{
+
+    padding: 10px;
+  margin-top : 3px;
+  justify-content: space-between;
+}
+
+
+
+.massage{
+  float: left;
+  margin: 3%;
+  width: 25%;
+}
+.paragraph-gauche{
+
+    padding: 10px;
+  margin-top : 3px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.catagorie-spa{
+  padding: 10px;
+}
+
+
+
+
+
+footer{
+  margin: auto;
+}
+
